@@ -2,6 +2,7 @@
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
 1. [Useful Links](#useful-links)
 
+$\$
 
 ### How to Get Last Few Lines from a CSV File Using Windows PowerShell
 I had to see last few rows of a large CSV file (>16 GB); it was too large to open in Excel. So I obtained the last few rows from that file and wrote it to another file using Windows PowerShell. Input.csv is my large file and Output.csv is the output file.
