@@ -1,6 +1,6 @@
 ## Table of Contents
-* [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
-* [Useful Links](#useful-links)
+1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
+1. [Useful Links](#useful-links)
 
 
 ### How to Get Last Few Lines from a CSV File Using Windows PowerShell
