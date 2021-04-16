@@ -1,6 +1,7 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
-1. [Useful Links](#useful-links)
+2. [How to Create New Column Using Existing Two or More Columns in Pandas (apply function)](#how-to-create-new-column-using-existing-one-or-more-column-in-pandas-(apply-function))
+3. [Useful Links](#useful-links)
 
 
 ### How to Get Last Few Lines from a CSV File Using Windows PowerShell
@@ -15,3 +16,23 @@ type -last 1000 Input.csv | out-file "Output.csv" -encoding ASCII -Append      #
 
 ### Useful Links
 - Basics of writing Markdown files by Microsoft. [Link](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#:~:text=Paragraphs%20and%20line%20breaks,-Supported%20in%3A%20Definition&text=In%20a%20Markdown%20file%20or,text%20on%20a%20new%20line.)
+
+### How to Create New Column Using Existing Two or More Columns in Pandas (apply function)
+Suppose we have 3 columns in the data named A, B, C. Now, we want to create a column of tag, such that for each row if value of column A is maxium among the three columns, then the new column will have value A, if column B value is maxium then value will be B and if column C value is maxium then value will be C.
+```python
+# Function to derive tag
+def tag_function(a, b, c):
+    maximum_value = max(a, b, c)
+    
+    if maximum_value == a:
+        tbr = "A"
+    elif maximum_value == b:
+        tbr = "B"
+    elif maximum_value == c:
+        tbr = "C"
+    
+    return tbr
+
+
+data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], x["C"]), axis = 1)
+```
