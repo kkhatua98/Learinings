@@ -45,7 +45,7 @@ For base Python:
     ```
     pip install ipynb-py-convert
     ```
-For Conda
+    For Conda
     ```powershell
     conda install -c defaults -c conda-forge ipynb-py-convert
     ```
