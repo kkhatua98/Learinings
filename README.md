@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
-2. [How to Create New Column Using Existing Two or More Columns in Pandas with apply Function](#how-to-create-new-column-using-existing-two-or-more-columns-in-pandas-(apply-function))
+2. [How to Create New Column Using Existing Two or More Columns in Pandas with apply Function](#how-to-create-new-column-using-existing-two-or-more-columns-in-pandas-(apply-Function))
 3. [How to Convert a Python File to Jupyter Notebook](#how-to-convert-a-python-file-to-jupyter-notebook)
 4. [Useful Links](#useful-links)
 
