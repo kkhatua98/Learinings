@@ -1,7 +1,7 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
 2. [How to Create New Column Using Existing Two or More Columns in Pandas with apply Function](#how-to-create-new-column-using-existing-one-or-more-column-in-pandas-with-apply-function)
-3. [How to Convert a Python File to Jupyter Notebook (ipynb file)](#how-to-convert-a-python-file-to-jupyter-notebook-(ipynb-file))
+3. [How to Convert a Python File to Jupyter Notebook](#how-to-convert-a-python-file-to-jupyter-notebook)
 4. [Useful Links](#useful-links)
 
 
@@ -37,7 +37,7 @@ data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], 
 ```
 
 
-### How to Convert a Python File to Jupyter Notebook (ipynb file)
+### How to Convert a Python File to Jupyter Notebook
 I have written this following this [link](https://pypi.org/project/ipynb-py-convert/). Suppose A.py is the file you want to convert to notebook.
 - *Step 1 (Optional):* Put #%% (Do not put space after it, it will not work) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
