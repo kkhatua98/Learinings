@@ -16,7 +16,7 @@ type -last 1000 Input.csv | out-file "Output.csv" -encoding ASCII -Append      #
 ```
 
 
-### How to Create New Column Using Existing Two or More Columns in Pandas (apply function)
+### How to Create New Column Using Existing Two or More Columns in Pandas with apply Function
 Suppose we have 3 columns in the data named A, B, C. Now, we want to create a column of tag, such that for each row its value will be A if value in collumn A is maxium, B if value in column B is maximum or value C if value in column C is maximum.
 ```python
 # Function to derive tag
