@@ -1,6 +1,6 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
-2. [How to Create New Column Using Existing Two or More Columns in Pandas with apply Function](#how-to-create-new-column-using-existing-one-or-more-column-in-pandas-with-apply-function)
+2. [How to Create New Column Using Existing Two or More Columns in Pandas with apply Function](#how-to-create-new-column-using-existing-two-or-more-column-in-pandas-(apply-function))
 3. [How to Convert a Python File to Jupyter Notebook](#how-to-convert-a-python-file-to-jupyter-notebook)
 4. [Useful Links](#useful-links)
 
@@ -16,7 +16,7 @@ type -last 1000 Input.csv | out-file "Output.csv" -encoding ASCII -Append      #
 ```
 
 
-### How to Create New Column Using Existing Two or More Columns in Pandas with apply Function
+### How to Create New Column Using Existing Two or More Columns in Pandas (apply Function)
 Suppose we have 3 columns in the data named A, B, C. Now, we want to create a column of tag, such that for each row its value will be A if value in collumn A is maxium, B if value in column B is maximum or value C if value in column C is maximum.
 ```python
 # Function to derive tag
