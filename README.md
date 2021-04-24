@@ -41,7 +41,7 @@ data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], 
 I have written this following this [link](https://pypi.org/project/ipynb-py-convert/). Suppose A.py is the file you want to convert to notebook.
 - *Step 1 (Optional):* Put #%% (Do not put space after it, it will not work) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
-For base Python:
+For base Python: \
     pip install ipynb-py-convert
 For Conda
     ```powershell
