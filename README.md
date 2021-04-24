@@ -1,12 +1,12 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
 2. [How to Create New Column Using Existing Two or More Columns in Pandas (apply function)](#how-to-create-new-column-using-existing-one-or-more-column-in-pandas-(apply-function))
-3. [How to Convert a Python File to Jupyter Notebook (.ipynb file)](#how-to-convert-a-python-file-to-jupyter-notebook-(.ipynb-file))
+3. [How to Convert a Python File to Jupyter Notebook (ipynb file)](#how-to-convert-a-python-file-to-jupyter-notebook-(ipynb-file))
 4. [Useful Links](#useful-links)
 
 
 ### How to Get Last Few Lines from a CSV File Using Windows PowerShell
-    I had to see last few rows of a large CSV file (>16 GB); it was too large to open in Excel. So I obtained the last few rows from that file and wrote it to another file using Windows PowerShell. Input.csv is my large file and Output.csv is the output file.
+I had to see last few rows of a large CSV file (>16 GB); it was too large to open in Excel. So I obtained the last few rows from that file and wrote it to another file using Windows PowerShell. Input.csv is my large file and Output.csv is the output file.
 - Use of get-content (or type) is obtained from this [link](https://www.csvexplorer.com/blog/open-big-csv/).
 - Use of ASCII encoding is obtained from this [link](https://stackoverflow.com/questions/5596982/using-powershell-to-write-a-file-in-utf-8-without-the-bom) the third answer, by Lenny.
 - Use of Append is obtained from this [link](https://powershell.org/2013/10/why-get-content-aint-yer-friend/).
@@ -37,7 +37,7 @@ data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], 
 ```
 
 
-### How to Convert a Python File to Jupyter Notebook(.ipynb file)
+### How to Convert a Python File to Jupyter Notebook(ipynb file)
 I have written this following this [link](https://pypi.org/project/ipynb-py-convert/). Suppose A.py is the file you want to convert to notebook.
 - *Step 1 (Optional):* Put #%% (Do not put space after it, it will not work) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
