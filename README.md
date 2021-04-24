@@ -1,7 +1,8 @@
 ## Table of Contents
 1. [How to Get Last Few Lines from a CSV File Using Windows PowerShell](#how-to-get-last-few-lines-from-a-csv-file-using-windows-powershell)
 2. [How to Create New Column Using Existing Two or More Columns in Pandas (apply function)](#how-to-create-new-column-using-existing-one-or-more-column-in-pandas-(apply-function))
-3. [Useful Links](#useful-links)
+3. [How to Convert a Python File to Jupyter Notebook(.ipynb file)](#how-to-convert-a-python-file-to-jupyter-notebook(.ipynb-file))
+4. [Useful Links](#useful-links)
 
 
 ### How to Get Last Few Lines from a CSV File Using Windows PowerShell
@@ -35,6 +36,19 @@ def tag_function(a, b, c):
 data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], x["C"]), axis = 1)
 ```
 
+
+### How to Convert a Python File to Jupyter Notebook(.ipynb file)
+Suppose A.py is the file you want to convert to notebook.
+- *Step 1 (Optional):* Put #%% (Do not put space after it) before the chunk of code you want to put in a cell in notebook.
+- *Step 2:* Install ipynb-py-convert. \
+For base Python:
+```powershell
+pip install ipynb-py-convert
+```
+For Conda
+```powershell
+conda install -c defaults -c conda-forge ipynb-py-convert
+```
 
 ### Useful Links
 - Basics of writing Markdown files by Microsoft. [Link](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#:~:text=Paragraphs%20and%20line%20breaks,-Supported%20in%3A%20Definition&text=In%20a%20Markdown%20file%20or,text%20on%20a%20new%20line.)
