@@ -42,7 +42,9 @@ I have written this following this [link](https://pypi.org/project/ipynb-py-conv
 - *Step 1 (Optional):* Put #%% (Do not put space after it, it will not work) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
 For base Python: 
-    ```pip install ipynb-py-convert```
+    ```
+    pip install ipynb-py-convert
+    ```
 For Conda
     ```powershell
     conda install -c defaults -c conda-forge ipynb-py-convert
