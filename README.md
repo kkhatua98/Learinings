@@ -39,7 +39,7 @@ data["tag"] = data[["A", "B", "C"]].apply(lambda x:tag_function(x["A"], x["B"], 
 
 ### How to Convert a Python File to Jupyter Notebook(.ipynb file)
 Suppose A.py is the file you want to convert to notebook.
-- *Step 1 (Optional):* Put #%% (Do not put space after it) before the chunk of code you want to put in a cell in notebook.
+- *Step 1 (Optional):* Put #%% (Do not put space after it, it will not work) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
 For base Python:
     ```powershell
@@ -49,6 +49,10 @@ For base Python:
     ```powershell
     conda install -c defaults -c conda-forge ipynb-py-convert
     ```
+- *Step 3:* Write this command in the Command Prompt or Anaconda Prompt
+    ````powershell
+    ipynb-py-convert A.py A.ipynb
+    ````
 
 ### Useful Links
 - Basics of writing Markdown files by Microsoft. [Link](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#:~:text=Paragraphs%20and%20line%20breaks,-Supported%20in%3A%20Definition&text=In%20a%20Markdown%20file%20or,text%20on%20a%20new%20line.)
