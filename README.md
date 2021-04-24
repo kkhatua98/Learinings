@@ -42,7 +42,7 @@ Suppose A.py is the file you want to convert to notebook.
 - *Step 1 (Optional):* Put #%% (Do not put space after it) before the chunk of code you want to put in a cell in notebook.
 - *Step 2:* Install ipynb-py-convert. \
 For base Python:
-```powershell
+    ```powershell
 pip install ipynb-py-convert
 ```
 For Conda
