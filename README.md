@@ -43,8 +43,8 @@ Suppose A.py is the file you want to convert to notebook.
 - *Step 2:* Install ipynb-py-convert. \
 For base Python:
     ```powershell
-pip install ipynb-py-convert
-```
+    pip install ipynb-py-convert
+    ```
 For Conda
 ```powershell
 conda install -c defaults -c conda-forge ipynb-py-convert
