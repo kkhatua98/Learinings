@@ -56,5 +56,6 @@ For base Python:
 
 ### Useful Links
 - Basics of writing Markdown files by Microsoft. [Link](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=azure-devops#:~:text=Paragraphs%20and%20line%20breaks,-Supported%20in%3A%20Definition&text=In%20a%20Markdown%20file%20or,text%20on%20a%20new%20line.)
+- How to run Tensorflow inside Docker image. Link: https://www.youtube.com/watch?v=YozfiLI1ogY&t=883s . Timestamp: 6.05. The command that should be used is, **docker run -it --rm -p 8888:8888 --gpus all tensorflow/tensorflow:latest-gpu-jupyter**
 
 
